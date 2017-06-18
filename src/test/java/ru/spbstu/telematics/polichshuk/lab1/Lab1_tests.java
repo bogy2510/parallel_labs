@@ -9,7 +9,7 @@ public class Lab1_tests {
     public void testFileRead(){
         FileRead testread = new FileRead();
         String str=testread.filereader("C:/Users/Bogdan/IdeaProjects/lab01/src/main/resources/yahz");
-        org.junit.Assert.assertEquals("Ty vse eshe nedoumok",str);
+        org.junit.Assert.assertEquals("hello again!",str);
     }
     @Test
     public void testFileReadNull(){
