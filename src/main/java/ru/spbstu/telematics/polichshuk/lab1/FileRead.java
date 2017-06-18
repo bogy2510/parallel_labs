@@ -17,7 +17,8 @@ public class FileRead {
             }
         }
         catch(IOException ex){
-            System.out.println(ex.getMessage());
+            return null;
+            //System.out.println(ex.getMessage());
         }
         return letter;
     }

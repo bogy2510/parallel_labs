@@ -11,5 +11,11 @@ public class Lab1_tests {
         String str=testread.filereader("C:/Users/Bogdan/IdeaProjects/lab01/src/main/resources/yahz");
         org.junit.Assert.assertEquals("Ty vse eshe nedoumok",str);
     }
+    @Test
+    public void testFileReadNull(){
+        FileRead testread = new FileRead();
+        String str=testread.filereader("C:/Users/Bogdan/IdeaProjects/lab01/src/main/netfile");
+        org.junit.Assert.assertNull(str);
+    }
 
 }
